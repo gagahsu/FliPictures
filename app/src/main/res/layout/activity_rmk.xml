@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:transitionGroup="false"
+    android:nestedScrollingEnabled="false"
+    android:gravity="center_vertical|center_horizontal"
+    android:id="@+id/remark"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dp"
+        android:layout_height="370dp"
+        android:background="#ffffffff">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_margin="0dp"
+            android:focusable="true"
+            android:background="#ffff3826">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/text_title"
+                android:text="@string/RemarkTitle"
+                android:minHeight="50dp"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rmkText"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="370dp"
+            android:background="#ffffffff">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rmkBack"
+                android:src="@drawable/ic_action_cancel"
+                android:background="@android:color/background_light"
+                android:layout_gravity="start"
+                android:contentDescription="@string/Cancel" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rmkSave"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_action_save"
+                android:background="@android:color/background_light"
+                android:contentDescription="@string/Save" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

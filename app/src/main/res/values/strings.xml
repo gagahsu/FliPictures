@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FliPicture</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="SaveMsg">Save Success</string>
+    <string name="RemarkTitle">Picture description</string>
+    <string name="InfoTitle">Picture Info</string>
+    <string name="DateTime">Date  ：</string>
+    <string name="Length"  >Length：</string>
+    <string name="Width"   >Width ：</string>
+    <string name="Path"    >Path  ：</string>
+    <string name="Desc"    >Desc  ：</string>
+</resources>

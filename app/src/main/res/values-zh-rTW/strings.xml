@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">翻照片</string>
+
+    <string name="hello_world">哈囉 世界!</string>
+    <string name="action_settings">設定</string>
+    <string name="Save">存檔</string>
+    <string name="Cancel">離開</string>
+    <string name="SaveMsg">存檔成功</string>
+    <string name="RemarkTitle">照片說明</string>
+    <string name="InfoTitle">照片資訊</string>
+    <string name="DateTime">時間：</string>
+    <string name="Length">長度：</string>
+    <string name="Width">寬度：</string>
+    <string name="Path">路徑：</string>
+    <string name="Desc">說明：</string>
+</resources>
